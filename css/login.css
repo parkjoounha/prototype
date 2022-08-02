@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#loginsection { padding:206px 0 100px; }
+#loginsection form {
+width:300px;
+margin:auto;
+}
+#loginsection label{
+display: block;
+margin:10px 0;
+}
+#loginsection label input{
+  width:100%;
+  padding:15px;
+}
+#loginsection form button {
+  width:100%; padding:15px;
+  background:#000; color:#fff;
+}
+#loginsection .sns{
+  text-align:center;
+  margin-top: 20px;
+}
+#loginsection .sns button {
+  background:#fffb10; color:#000;
+  padding: 15px; margin:0 5px;
+}
+#loginsection .sns button:first-child {
+  background:#04cf5c; color:#fff;
+}

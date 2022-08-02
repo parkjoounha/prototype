@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#joinsection { padding:206px 0 100px;}
+#joinsection form {
+  width:300px;
+  margin:auto;
+}
+#joinsection label{
+  display: block;
+}
+#joinsection label input{
+  width:100%;
+  padding:15px;
+}
+#joinsection .text { display:block; padding:20px 0 }
+#joinsection .text input { width:100%; padding:15px;}
+#joinsection .text input:focus { background:pink; outline:1px solid #f00; border:none }
+#joinsection .text span { margin-top:10px; opacity:0; display:block; color:#f00; transition:all 0.5s }
+#joinsection .text input:focus+span {
+  opacity:1; 
+}
+#joinsection .sns{
+  text-align:center;
+  margin-top:20px;
+  width:300px;
+  margin:auto;
+}
+#joinsection .sns button:first-child {
+  background:#f9E000; color:#1f1f1f;
+  
+}
+#joinsection .sns button {
+  background:#1f1f1f; color:#fff;
+  padding:15px; margin:20px 5px; display: block;
+
+width:100%;}
